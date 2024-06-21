@@ -2,8 +2,6 @@
 
 Есть родительский класс:
 
- 
-
 class Transport:
 
    def __init__(self, name, max_speed, mileage):
