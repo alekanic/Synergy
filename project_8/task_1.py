@@ -9,7 +9,7 @@ print("Введите возраст питомца: ")
 age = int(input())
 pets[name]["Возраст питомца"] = age
 tmp = " лет"
-if age % 10 == 1:
+if age % 10 == 1 and age > 11:
     tmp = " год"
 elif age >= 2 and age <= 4:
     tmp = " года"
